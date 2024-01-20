@@ -135,7 +135,6 @@ export default function Toolbar({ setFilter, filter }: ToolbarProps) {
                   <Select
                     value={itemType}
                     sx={{ display: 'flex', flexDirection: 'row' }}
-                    label='نوع'
                     onChange={(event: SelectChangeEvent) =>
                       setItemType(event.target.value as ItemType)
                     }
