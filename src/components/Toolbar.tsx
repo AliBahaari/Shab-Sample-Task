@@ -133,6 +133,7 @@ export default function Toolbar({ setFilter, filter }: ToolbarProps) {
                 <FormControl fullWidth>
                   <InputLabel>Type</InputLabel>
                   <Select
+                    label='Type'
                     value={itemType}
                     sx={{ display: 'flex', flexDirection: 'row' }}
                     onChange={(event: SelectChangeEvent) =>
